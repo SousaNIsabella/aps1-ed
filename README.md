@@ -14,3 +14,9 @@ Implementação base da Atividade 1 do projeto de sistema de recomendação.
 ## Compilação
 ```bash
 make
+
+
+mingw32-make
+mingw32-make runlista
+
+mingw32-make run_sim
