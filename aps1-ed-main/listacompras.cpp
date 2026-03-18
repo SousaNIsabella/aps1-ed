@@ -6,10 +6,6 @@
 #include <stdexcept>
 #include <unordered_set>
 
-int ListaCompras::getNumeroClientes() const {
-    return codigosClientes.size();
-}
-
 std::string ListaCompras::trim(const std::string& s) {
     const std::string whitespace = " \t\r\n";
     const std::size_t inicio = s.find_first_not_of(whitespace);
@@ -189,5 +185,4 @@ void ListaCompras::imprimirComprasDoCliente(const std::string& codigoCliente) co
                   << ", cod original = " << codigosProdutos[indiceProduto] << ")\n";
     }
     std::cout << '\n';
-
 }
