@@ -32,8 +32,8 @@ int main(int argc, char* argv[]) {
             
             if (indiceVizinho != -1) {
                 double distancia = sim.getSimilaridade(indiceAlvo, indiceVizinho);
-                std::cout << "Vizinho mais similar encontrado: [Indice " << indiceVizinho << "]\n";
-                std::cout << "Distancia de Jaccard: " << distancia << " (quanto mais perto de 0, mais parecido)\n";
+                std::cout << "Cliente mais similar encontrado: [Indice " << indiceVizinho << "]\n";
+                std::cout << "Distância de similaridade: " << distancia << "\n";
             } else {
                 std::cout << "Nenhum vizinho similar encontrado.\n";
             }
